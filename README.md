@@ -1,4 +1,4 @@
-# WhatsApp Bot
+# WhatsApp Bot py
 
 This project implements a WhatsApp bot using the Selenium WebDriver. The bot is designed to automate various interactions on the WhatsApp platform, such as authenticating, opening contacts, reading messages, sending messages and ChatGPT integration.
 
@@ -13,7 +13,7 @@ At this moment you can use the bot to:
 
 Before running the project, make sure you have the following requirements installed:
 
-- Python (version 3.8.7)
+- Python (version 3.8.7) or 3.9.5
 - Selenium - For run webdriver
 - OpenAI - For ChatGPT Integration
 
@@ -24,11 +24,28 @@ Before running the project, make sure you have the following requirements instal
   ```shell
   git clone https://github.com/GabrielHinz/whatsbot.git 
   ```
-   
+   or
+
+  ```shell
+  git clone https://github.com/nicolasgrs/whatsbot.git
+  ```
 2. Navigate to the project directory:
 
   ```shell
   cd whatsbot
+  ```
+if you want create virtual enviroment:
+  
+  ```shell
+  conda create --name chatbot python=3.9.5
+  ```
+
+  ```shell
+  conda activate chatbot
+  ```
+
+  ```shell
+  pip install selenium
   ```
 
 3. Installing dependencies:
