@@ -79,7 +79,7 @@ class WhatsBot:
         Finds a web element based on the mapping file.
 
         Args:
-            element (str): Element key to look for in the mapping file.
+            element (str): Element key to look for in the mapping file..
 
         Returns:
             Any
